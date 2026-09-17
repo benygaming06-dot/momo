@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KurtDhylanMotoShopInventory.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Red">#F20D18</Color>
+            <Color x:Key="Dark">#0B0B0D</Color>
+            <Color x:Key="Card">#17171A</Color>
+            <Color x:Key="Card2">#202024</Color>
+            <Color x:Key="TextPrimary">#FFFFFF</Color>
+            <Color x:Key="TextSecondary">#A8A8B0</Color>
+            <Color x:Key="Line">#303036</Color>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource TextPrimary}" />
+                <Setter Property="FontFamily" Value="OpenSansRegular" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="CornerRadius" Value="14" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="Padding" Value="16,12" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="PlaceholderColor" Value="#77777F" />
+                <Setter Property="BackgroundColor" Value="{StaticResource Card2}" />
+                <Setter Property="HeightRequest" Value="52" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

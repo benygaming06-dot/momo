@@ -1,0 +1,12 @@
+KURT DHYLAN MOTO SHOP INVENTORY - ANDROID 15 APK
+
+1. GitHub Actions -> successful build -> Artifacts.
+2. Download KurtDhylanMotoShopInventory-Android15-ARM64-APK.
+3. Extract the downloaded ZIP.
+4. Install the .apk inside on an ARM64 Android phone (Android 15 supported).
+5. If an older copy of this app is installed, uninstall it first if Android reports a signature/package conflict.
+
+IMPORTANT:
+- This build targets arm64-v8a, which is the standard architecture for modern Android phones.
+- Do not install the GitHub artifact ZIP itself; extract it and install the APK.
+- Uninstalling the old app can remove its local inventory database.
